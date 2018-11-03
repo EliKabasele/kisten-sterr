@@ -10,6 +10,7 @@ import { Section1Module} from './components/section1/section1.module';
 import { HeaderModule} from './components/header/header.module';
 import { FooterModule} from './components/footer/footer.module';
 import { HomepageModule} from './components/homepage/homepage.module';
+import { CarousselModule} from './components/caroussel/caroussel.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { HomepageModule} from './components/homepage/homepage.module';
     Section1Module,
     HeaderModule,
     FooterModule,
-    HomepageModule
+    HomepageModule,
+    CarousselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

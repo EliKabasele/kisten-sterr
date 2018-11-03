@@ -6,6 +6,7 @@ import { Section3Component } from './section3.component';
   imports: [
     CommonModule
   ],
-  declarations: [Section3Component]
+  declarations: [Section3Component],
+  exports: [Section3Component]
 })
 export class Section3Module { }
