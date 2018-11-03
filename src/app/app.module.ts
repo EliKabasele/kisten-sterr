@@ -9,6 +9,7 @@ import { Section2Module} from './components/section2/section2.module';
 import { Section1Module} from './components/section1/section1.module';
 import { HeaderModule} from './components/header/header.module';
 import { FooterModule} from './components/footer/footer.module';
+import { HomepageModule} from './components/homepage/homepage.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterModule} from './components/footer/footer.module';
     Section2Module,
     Section1Module,
     HeaderModule,
-    FooterModule
+    FooterModule,
+    HomepageModule
   ],
   providers: [],
   bootstrap: [AppComponent]
