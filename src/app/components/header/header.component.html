@@ -1,26 +1,49 @@
-<nav class="navbar  navbar-expand-lg navbar-light bg-warning">
-  <a class="navbar-brand" routerLink="/">
-    <img src="../../../assets/images/sterrLogo.jpg" style="border-radius: 5px" width="220" height="80">
-  </a> &nbsp; &nbsp;
+<div class="navElement">
+    <nav class="navbar  navbar-expand-lg navbar-light bg-warning">
+        <a class="navbar-brand" routerLink="/">
+          <img src="../../../assets/images/sterrLogo.jpg" style="border-radius: 5px" width="220" height="80">
+        </a> &nbsp; &nbsp;
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/" routerLinkActive="active"><b>STARTSEITE</b><span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLinkActive="active"><b>PRODUKTE</b><span class="sr-only">(current)</span></a>
+              <ul>
+                <li>
+                  <a class="nav-link" routerLink="/Kategorie" routerLinkActive="active"><b>KISTEN UND VERPACKUNG</b><span class="sr-only">(current)</span></a>
+                </li>
+                <li>
+                  <a class="nav-link" routerLink="/Kategorie" routerLinkActive="active"><b>HOLZHANDLUNG</b><span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLinkActive="active"><b>UNTERNEHMEN</b></a>
+              <ul>
+                  <li>
+                    <a class="nav-link" routerLink="/unternehmen/ueberuns" routerLinkActive="active"><b>ÜBER UNS</b><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" routerLink="/unternehmen/kundenservice" routerLinkActive="active"><b>KUNDENSERVICE</b><span class="sr-only">(current)</span></a>
+                  </li>
+                  <li>
+                    <a class="nav-link" routerLink="/unternehmen/lieferservice" routerLinkActive="active"><b>LIEFERSERVICE</b><span class="sr-only">(current)</span></a>
+                  </li>
+                </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/kontakt" routerLinkActive="active"><b> KONTAKT</b><span class="sr-only">(current)</span></a>
+            </li>
+           
+          </ul>
+        </div>
+      </nav>
+</div>
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/" routerLinkActive="active"><b>- STARTSEITE</b><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/Kategorie" routerLinkActive="active"><b>- PRODUKTE</b><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/service" routerLinkActive="active"><b>- SERVICE</b><span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/unternehmen" routerLinkActive="active"><b>- UNTERNEHMEN</b></a>
-      </li>
-    </ul>
-  </div>
-</nav>
