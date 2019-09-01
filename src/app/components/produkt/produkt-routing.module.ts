@@ -14,7 +14,7 @@ const routes: Routes = [
     component: ProduktKistenComponent
   },
   {
-    path: 'kategorie/beab-holz',
+    path: 'kategorie/Holzhandlung',
     component: BeabHolzComponent
   }
 ];
