@@ -13,3 +13,55 @@
     background-color: bisque;
     color: saddlebrown
 }
+
+
+#section-b, #section-a{
+    padding: 2em 1em 1em;
+    text-align: center;
+}
+
+#section-b ul {
+    padding: 0;
+    list-style: none;
+    margin-right: 1em 0;
+}
+
+#section-b li {
+    margin-bottom: 1em;
+    background-color: bisque;
+    color: saddlebrown;
+}
+
+#section-a .content-wrap {
+    padding: 0 1.5em;
+}
+
+.card-content {
+    padding: 1.5em;
+}
+
+// Media Queries
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
+    }
+
+    .content-wrap, #section-b ul {
+        grid-column: 2/4;
+    }
+
+    #section-b ul {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    #section-b li {
+        width: 31%;
+    }
+
+    #section-a .content-wrap {
+        margin-top: 7em;
+    }
+}
