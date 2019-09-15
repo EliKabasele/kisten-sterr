@@ -1,15 +1,38 @@
 p{
     font-size: 150%
 }
-.container {
+
+#section-a{
+    padding: 2em 1em 1em;
+}
+
+#section-a .content-wrap {
+    padding: 0 1.5em;
+    background-color: bisque;
+    color: saddlebrown;
     margin-bottom: 85px;
-    box-shadow: 5px 5px 15px 7px #000000;
+    box-shadow: 5px 5px 15px 7px saddlebrown;
     border-radius: 15px;
     padding: 25px;
     margin-top: 370px;
 }
 
-.jumbotron {
-    background-color: bisque;
-    color: saddlebrown
+#section-a .content-wrap {
+    margin-top: 9em;
+  }
+
+// Media Queries
+@media(min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 40em)) 1fr;
+    }
+  
+    .content-wrap {
+      grid-column: 2/4;
+    }
+  
+    #section-a .content-wrap {
+      margin-top: 15em;
+    } 
 }

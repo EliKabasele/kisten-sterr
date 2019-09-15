@@ -1,5 +1,12 @@
 img{
     width: 100%;
     height: auto;
-    display: block
+    display: inline-block
+}
+
+#carousell-container {
+    box-shadow: 5px 5px 20px 5px #000000; 
+    border-radius: 15px; 
+    padding: 7px;
+    margin-top: 5em;
 }
