@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ProduktRoutingModule } from './produkt-routing.module';
-import { ProduktCategoriesComponent } from './categories/produkt-categories.component';
 import { ProduktKistenComponent } from './kisten/produkt-kisten.component';
 import { BeabHolzComponent } from './beab-holz/beab-holz.component';
 
@@ -11,6 +10,6 @@ import { BeabHolzComponent } from './beab-holz/beab-holz.component';
     CommonModule,
     ProduktRoutingModule
   ],
-  declarations: [ProduktCategoriesComponent, ProduktKistenComponent, BeabHolzComponent]
+  declarations: [ProduktKistenComponent, BeabHolzComponent]
 })
 export class ProduktModule { }
