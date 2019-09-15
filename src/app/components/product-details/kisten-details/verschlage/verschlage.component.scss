@@ -1,5 +1,5 @@
 
-#section-b, #section-a{
+#section-b, #section-a, #section-c{
     padding: 2em 1em 1em;
     text-align: center;
 }
@@ -16,7 +16,7 @@
 
 #section-b li {
     margin-bottom: 1em;
-    background-color: bisque;
+    //background-color: bisque;
     color: saddlebrown;
 }
 
@@ -36,6 +36,27 @@
 }
 .card-content {
     padding: 1.5em;
+}
+
+#section-c a {
+    text-decoration: none
+}
+
+#section-c button {
+    display: inline-block;
+    background: rgb(255, 198, 26);
+    color: saddlebrown;
+    text-decoration: none;
+    padding: 1em 2em;
+    border: 1px solid #666;
+    box-shadow: 5px 10px 5px saddlebrown;
+}
+
+
+#section-c button:hover {
+    text-decoration: none;
+    background: rgb(128, 94, 0);
+    color: black;    
 }
 
 // Media Queries
