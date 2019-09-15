@@ -15,7 +15,6 @@ import { DatenschutzModule} from './components/datenschutz/datenschutz.module';
 import { ImpressumModule} from './components/impressum/impressum.module';
 import { KontaktModule} from './components/kontakt/kontakt.module';
 import { ProduktModule} from './components/produkt/produkt.module';
-import { ServiceModule} from './components/service/service.module';
 import { UnternehmenModule} from './components/unternehmen/unternehmen.module';
 import { ProductDetailsModule } from './components/product-details/product-details.module';
 
@@ -37,7 +36,6 @@ import { ProductDetailsModule } from './components/product-details/product-detai
     ImpressumModule,
     KontaktModule,
     ProduktModule,
-    ServiceModule,
     UnternehmenModule,
     ProductDetailsModule
   ],
