@@ -19,14 +19,11 @@
     //background-color: bisque;
     color: saddlebrown;
     border: 1px solid saddlebrown;
+    box-shadow: 5px 10px 5px saddlebrown;
 }
 
 #section-a .content-wrap {
     padding: 0 1.5em;
-}
-
-._card {
-    box-shadow: 5px 10px 5px saddlebrown;
 }
 
 ._card:hover

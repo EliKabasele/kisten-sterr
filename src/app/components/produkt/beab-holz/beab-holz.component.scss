@@ -14,6 +14,7 @@
     margin-bottom: 1em;
     background-color: bisque;
     color: saddlebrown;
+    box-shadow: 5px 10px 5px saddlebrown;
 }
 
 #section-a .content-wrap {
@@ -24,12 +25,7 @@
     padding: 1.5em;
 }
 
-._card {
-    box-shadow: 5px 10px 5px saddlebrown;
-}
-
-._card:hover
-{
+._card:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);

@@ -8,6 +8,11 @@ import { ObstkisteComponent } from './kisten-details/obstkiste/obstkiste.compone
 import { TransportpaletteComponent } from './kisten-details/transportpalette/transportpalette.component';
 import { PrismeComponent } from './kisten-details/prisme/prisme.component';
 import { VerschlageComponent } from './kisten-details/verschlage/verschlage.component';
+import { KantholzComponent } from './holzhandlung-details/kantholz/kantholz.component';
+import { BretterComponent } from './holzhandlung-details/bretter/bretter.component';
+import { GartenholzComponent } from './holzhandlung-details/gartenholz/gartenholz.component';
+import { BlockwareComponent } from './holzhandlung-details/blockware/blockware.component';
+import { HolzwerkstoffeComponent } from './holzhandlung-details/holzwerkstoffe/holzwerkstoffe.component';
 
 @NgModule({
   imports: [
@@ -19,6 +24,6 @@ import { VerschlageComponent } from './kisten-details/verschlage/verschlage.comp
                  ObstkisteComponent, 
                  TransportpaletteComponent, 
                  PrismeComponent, 
-                 VerschlageComponent]
+                 VerschlageComponent, KantholzComponent, BretterComponent, GartenholzComponent, BlockwareComponent, HolzwerkstoffeComponent]
 })
 export class ProductDetailsModule { }
