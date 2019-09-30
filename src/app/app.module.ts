@@ -11,7 +11,6 @@ import { HeaderModule} from './components/header/header.module';
 import { FooterModule} from './components/footer/footer.module';
 import { HomepageModule} from './components/startSeite/homepage/homepage.module';
 import { CarousselModule} from './components/startSeite/caroussel/caroussel.module';
-import { DatenschutzModule} from './components/datenschutz/datenschutz.module';
 import { ImpressumModule} from './components/impressum/impressum.module';
 import { KontaktModule} from './components/kontakt/kontakt.module';
 import { ProduktModule} from './components/produkt/produkt.module';
@@ -32,7 +31,6 @@ import { ProductDetailsModule } from './components/product-details/product-detai
     FooterModule,
     HomepageModule,
     CarousselModule,
-    DatenschutzModule,
     ImpressumModule,
     KontaktModule,
     ProduktModule,
