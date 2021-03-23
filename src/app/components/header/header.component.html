@@ -10,37 +10,50 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent1">
           <ul class="navbar-nav mr-auto">
+            <!-- STARTSEITE Menu -->
             <li class="nav-item">
               <a class="nav-link" routerLink="/" routerLinkActive="active"><b>STARTSEITE</b><span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLinkActive="active"><b>PRODUKTE</b><span class="sr-only">(current)</span></a>
-              <ul>
-                <li>
-                  <a class="nav-link" routerLink="/kategorie/Kisten" routerLinkActive="active"><b>KISTEN UND VERPACKUNG</b><span class="sr-only">(current)</span></a>
-                </li>
-                <li>
-                  <a class="nav-link" routerLink="/kategorie/Holzhandlung" routerLinkActive="active"><b>HOLZHANDLUNG</b><span class="sr-only">(current)</span></a>
-                </li>
-              </ul>
+
+             <!-- PRODUKTE Menu -->
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenu" routerLinkActive="active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>PRODUKTE</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenu"> 
+                <a class="dropdown-item" routerLink="/kategorie/Kisten" routerLinkActive="active">
+                  <b>KISTEN UND VERPACKUNG</b><span class="sr-only">(current)</span>
+                </a>
+                <a class="dropdown-item" routerLink="/kategorie/Holzhandlung" routerLinkActive="active">
+                  <b>HOLZHANDLUNG</b><span class="sr-only">(current)</span>
+                </a>
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" routerLinkActive="active"><b>UNTERNEHMEN</b></a>
-              <ul>
-                  <li>
-                    <a class="nav-link" routerLink="/unternehmen/ueberuns" routerLinkActive="active"><b>ÜBER UNS</b><span class="sr-only">(current)</span></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" routerLink="/unternehmen/kundenservice" routerLinkActive="active"><b>KUNDENSERVICE</b><span class="sr-only">(current)</span></a>
-                  </li>
-                  <li>
-                    <a class="nav-link" routerLink="/unternehmen/lieferservice" routerLinkActive="active"><b>LIEFERSERVICE</b><span class="sr-only">(current)</span></a>
-                  </li>
-                </ul>
+
+             <!-- UNTERNEHMEN Menu -->
+             <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle"  id="navbarDropdownMenuLink" routerLinkActive="active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>UNTERNEHMEN</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" routerLink="/unternehmen/ueberuns" routerLinkActive="active">
+                  <b>ÜBER UNS</b><span class="sr-only">(current)</span>
+                </a>
+                <a class="dropdown-item" routerLink="/unternehmen/kundenservice" routerLinkActive="active">
+                  <b>KUNDENSERVICE</b><span class="sr-only">(current)</span>
+                </a>
+                <a class="dropdown-item" routerLink="/unternehmen/lieferservice" routerLinkActive="active">
+                  <b>LIEFERSERVICE</b><span class="sr-only">(current)</span>
+                </a>
+              </div>
             </li>
+           
+            <!-- KONTAKT Menu -->
             <li class="nav-item">
               <a class="nav-link" routerLink="/kontakt" routerLinkActive="active"><b> KONTAKT</b><span class="sr-only">(current)</span></a>
             </li>
+           
+            
            
           </ul>
         </div>
