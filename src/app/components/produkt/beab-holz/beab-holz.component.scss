@@ -25,12 +25,6 @@
     padding: 1.5em;
 }
 
-._card:hover {
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
-}
-
 // Media Queries
 @media(min-width: 700px) {
     .grid {
