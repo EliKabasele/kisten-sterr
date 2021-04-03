@@ -7,64 +7,14 @@
   </div>
 </section>
 
-<section id="section-b">
+<section id="section-b" >
   <ul>
-    <li>
+    <li *ngFor = "let image_card of image_cards">
       <div class="_card">
-        <img src="../../../../assets/images/kantkolz.jpeg" alt="Kiste-1">
+        <img [src]="image_card.imgSrc" alt="Kiste-1">
         <div class="card-content">
-          <h3 class="card-title"><b>Kanthölzer</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/kantholz" class="_btn">Hier Erfahren Sie mehr</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="_card">
-        <img src="../../../../assets/images/bretter.jpg" alt="Kiste-2">
-        <div class="card-content">
-          <h3 class="card-title"><b>Bretter</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/bretter" class="_btn">Hier Erfahren Sie mehr</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="_card">
-        <img src="../../../../assets/images/gartenholz.jpg" alt="Kiste-3">
-        <div class="card-content">
-          <h3 class="card-title"><b>Gartenhölzer</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/gartenholz" class="_btn">Hier Erfahren Sie mehr</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="_card">
-        <img src="../../../../assets/images/blockware.jpg" alt="Kiste-4">
-        <div class="card-content">
-          <h3 class="card-title"><b>Blockware</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/blockware" class="_btn">Hier Erfahren Sie mehr</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="_card">
-        <img src="../../../../assets/images/holzwerkstoff.jpg" alt="Kiste-4">
-        <div class="card-content">
-          <h3 class="card-title"><b>Holzwerkstoffe</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/holzwerkstoff" class="_btn">Hier Erfahren Sie mehr</a></p>
-        </div>
-      </div>
-    </li>
-
-    <li>
-      <div class="_card">
-        <img src="../../../../assets/images/holzhandlung1.jpg" alt="Kiste-4">
-        <div class="card-content">
-          <h3 class="card-title"><b>Holzwerkstoffe</b></h3>
-          <p><a routerLink="/produkte/holzhandlung/holzwerkstoff" class="_btn">Hier Erfahren Sie mehr</a></p>
+          <h3 class="card-title"><b>{{image_card.imgTitle}}</b></h3>
+          <p><a [routerLink]="image_card.detailLink" class="_btn">Hier Erfahren Sie mehr</a></p>
         </div>
       </div>
     </li>
